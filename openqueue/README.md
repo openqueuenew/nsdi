@@ -54,6 +54,7 @@ sch_openqueue 16384 2 oq_mod, oq_mod_2
 
 
 ### Attach Qdisc ###
+Please note that you need to make sure you use the extended version of "tc" available in this repo. 
 
 * Attach OpenQueue qdisc with Policy oq_mod to interface eth0
 
