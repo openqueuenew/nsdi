@@ -1,0 +1,8 @@
+*.yacc.c
+*.lex.c
+*.output
+*.yacc.h
+tc
+*.o
+*.a
+cscope.out
