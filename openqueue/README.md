@@ -54,7 +54,8 @@ sch_openqueue 16384 2 oq_mod, oq_mod_2
 
 
 ### Attach Qdisc ###
-Please note that you need to make sure you use the extended version of "tc" available in this repo. 
+Please note that you need to use the extended version of "tc" that has support for OpenQueue when you do this.
+Its available on this repo at nsdi/iproute2/iproute2-4.3.0/. The README explains how to build and install it. 
 
 * Attach OpenQueue qdisc with Policy oq_mod to interface eth0
 
